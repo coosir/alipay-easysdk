@@ -1,12 +1,16 @@
 {
-	"name":"alipaysdk/easysdk",
-	"description":"支付宝官方 Alipay Easy SDK",
+	"name":"coosir/easysdk",
+	"description":"Alipay Easy SDK - coosir修改版",
 	"type":"library",
-	"version":"2.2.0",
+	"version":"2.2.1",
 	"authors":[
 		{
 			"name":"junying.wjy",
 			"email":"junying.wjy@antfin.com"
+		},
+		{
+			"name":"coosir",
+			"email":"git@coosir.com"
 		}
 	],
 	"autoload":{

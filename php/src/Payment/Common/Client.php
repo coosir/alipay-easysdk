@@ -165,7 +165,8 @@ class Client {
                     "alipay_root_cert_sn" => $this->_kernel->getAlipayRootCertSN()
                 ];
                 $bizParams = [
-                    "out_trade_no" => $outTradeNo
+                    "out_trade_no" => $outTradeNo,
+                    'query_options'=>['fund_bill_list']
                 ];
                 $textParams = [];
                 $_request->protocol = $this->_kernel->getConfig("protocol");
